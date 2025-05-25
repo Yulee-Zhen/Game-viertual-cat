@@ -1,0 +1,35 @@
+Hello, dear user!
+
+game.py is the main file of the project, just run this file in terminal.
+
+This game is about raising a virtual cat. At the begining, you will be 
+allocated a cat, you can feed or play with it to gain credict.
+
+Begining data (maximum of energy, health, mood is 5):
+
+-----------------      -------------------------
+       user                       cat   
+-----------------      -------------------------
+ 💰 Amount: $100         Energy : 🍗 🍗 🍗
+ ⭐️Credit:  5            Health : 🟢 🟢 🟢
+-----------------        Mood   : 🧡 🧡 🧡
+                       -------------------------
+
+Feeding it will cost $10 each time, and get 'energy+1';
+If energy is 5 and you still feed it, then 'health+1';
+If you play with cat, you will get 'energy-1' and 'mood+1';
+If mood is 5, still playing with it will get 'credit+1';
+If credit reaches 10, you win, you officially owns the cat;
+
+If energy is 0, you still play with it, then 'health-3';
+If health is 0, your cat is sick, need $40 for treatment;
+There is 10% probability to lose your cat when playing outside;
+If you lose it, you can spend $30 to find.
+
+If you do not treat or find your cat, you lose.
+If your amount is zero, you lose.
+If your credit reaches 10, you win.
+
+Have a try!
+
+
